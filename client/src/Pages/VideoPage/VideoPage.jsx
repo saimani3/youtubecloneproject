@@ -41,7 +41,8 @@ dispatch(viewVideo({
         <div className="container2_videopage">
             <div className="video_display_screen_videoPage">
                   <video 
-                  src={`http://localhost:5500/${vv?.filePath}`}
+                  // src={`http://localhost:5500/${vv?.filePath}`}
+                  src={`https://youtube-3hbo.onrender.com/${vv?.filePath}`}
                    className={'video_showVideo_videoPage'}
                   controls autoPlay></video>
                   <div className="video_details_videoPage">
